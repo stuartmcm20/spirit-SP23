@@ -1,0 +1,128 @@
+/*page background*/
+body{
+	background-color: #F2EEE4;
+    margin:0;
+}
+
+body{
+    font-family: sans-serif, "Times", "Times New Roman", "serif"
+}
+
+/*nav*/
+.menu ul{
+  list-style-type: none;
+}
+
+/*hero background img*/
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+   rgba(0, 0, 0, 0.5)), url("/images/travel_world.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   height:100%;
+   justify-content: center;
+   align-content: center;
+}
+
+.hero-text{
+  color:#fff;
+  text-align: center;
+}
+
+.hero-text h4{
+font-size: 50px;
+font-weight: 500;
+}
+
+.hero-text p{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+
+/* Heading text */
+h2{
+    font-family:sans-serif;
+    }
+    
+    
+    h2 {
+      color: #0e387a ;
+      text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    }
+
+
+    /*icon*/
+    #icon{
+      display: flex;
+      justify-content:space-evenly;
+    }
+
+    #token1{
+      border-radius: 40%;
+    }
+    #token2{
+      border-radius: 40%;
+    }
+    #token3{
+      border-radius: 40%;
+    }
+
+    /*map*/
+    #map{
+      display: flex;
+      justify-content:center;
+    }
+    
+    .responsive-map{
+      height:100%;
+      width:100%;
+    }
+    /* Main text */
+    html{
+      font-size: 15px;
+    }
+p{
+    font-family:Times Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    }
+    
+    p{
+     font-size: 1em;
+    letter-spacing: 1px;
+    }
+  
+   .footer{
+    background: linear-gradient(to bottom, #0e387a  0%, #000000  100%);
+}
+    .footer{
+        font-size:20px;
+        letter-spacing:0.5px;
+        text-align: right;
+        padding-bottom: 0%;
+    }
+    .footer{
+        color:whitesmoke;  
+   }
+   .follow{
+    text-align: center;
+    padding-bottom: 0%;
+   }
+
+  .iframe{
+    position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  }
+  .container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
