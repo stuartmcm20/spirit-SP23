@@ -1,11 +1,23 @@
 /*page background*/
 body{
 	background-color: #F2EEE4;
-    margin:0;
+    margin: auto;
 }
 
 body{
-    font-family: sans-serif, "Times", "Times New Roman", "serif"
+    font-family:"Times", "Times New Roman", "serif-sans"
+}
+
+/*wrapper*/
+#wrapper{
+  width:80%;
+  margin: auto;
+  padding: 3%;
+}
+
+section{
+  padding: 2%;
+  margin: auto;
 }
 
 /*nav*/
@@ -78,16 +90,17 @@ h2{
       justify-content:center;
     }
     
-    .responsive-map{
-      height:100%;
-      width:100%;
-    }
+#map{
+  width: 100%;
+  height: auto;
+}
+
     /* Main text */
     html{
-      font-size: 15px;
+      font-size: 16px;
     }
 p{
-    font-family:Times Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    font-family: "Times-Cambria" "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
     }
     
     p{
@@ -112,17 +125,5 @@ p{
     padding-bottom: 0%;
    }
 
-  .iframe{
-    position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  }
-  .container {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-  }
+  
+  
