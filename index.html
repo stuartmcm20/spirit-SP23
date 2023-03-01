@@ -4,104 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="css/index.css" rel="stylesheet" type="text/css"/>
+    <link href="css/home.css" rel="stylesheet" type="text/css"/>
     <title>Spirit Vacation</title>
-</head> 
-<body> 
-    <header>
-        <!--header will include logo in top left corner-->
+</head>
+<body>
+ <div class="container">
+    <div class="navbar">
+        <img src="images/spirit_logo.jpg" alt="digtal logo" class="logo">
         <nav>
-                    <!--nav bar, will be hamburger style dropdown menu in the upper right corner and it will include the search bar-->
-                    <a href="index.html"><img src="images/spirit_logo.jpg" alt="Digtal art of Spirit Vacation logo" width="90" height="90"/></a>
-            <nav class ="menu">
                 <ul>
-                  <li><a href="">Home</a></li>
-                  <li><a href="">Destinations</a></li>
-                  <li><a href="">Travel</a></li>
-                  <li><a href="">About</a></li>
-                  <li><a href="">Contact</a></li>
-                </ul> 
-                </nav>
-                </nav>
-    </header>
-   
-    <div class="hero-image">
-        <div class="hero-text">
-            <h4>Welcome to Spirit Vacation</h4>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Destinations</a></li>
+                    <li><a href="">Travel</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul> 
+        </nav>
+        <img src="images/hamburger_menu.jpg" alt="digtal logo of dropdown menu" class="menu-icon">
+    </div>
+        <img src="images/travel_world.jpg" alt="plane with world locations on back">
+    <h2>Welcome to Spirit Vacation </h2>
+    <div class="row">
+        <div class="col-1">
             <p>Spirit Vacation is a website dedicated to everything you need to know about vacation! I will 
                 share some vacations from various locations across the United States. Hopefully by sharing 
-                these locations it will help you plan your next big adventure.</p> 
-
-                <p>Some topics include, locations to 
+                these locations it will help you plan your next big adventure.</p>
+        </div>
+        <div class="col-2">
+            <p>Some topics include locations to
                 visit with your family and stunning attractions to have fun or take pictures at. Who doesn't like 
                 food? I will show you some of the best food the area offers to eat with your family. Need Flight 
                 and travel arrangements? You can look at some packages to best suit your needs.</p>
-        </div>
     </div>
-    <main id="wrapper">
-        <!--main will include image with background effect-->
-            <!--h1 will be images with text ontop with floating effect-->
+</div>
+ </div>
+ <section>
+    <h2>Click on icons to explore</h2>
+    <div id="icon"> 
+<a href="#beach"><img id="token1" src="images/va_staute.jpg" alt="King neptune staute at viginia beach"></a>
+<a href="#city"><img id="token2" src="images/las_vegas.jpg" alt="City of las vegas at night"></a>
+<a href="#mountain"><img id="token3" src="images/stone_mtn.jpg" alt="Yellowstone mountain field with animals feeding"></a>
+</div>
+ </section>
 
-                <!--here is the three image links that will take you to each section-->
-                <section>
-                    <h2>Click on each icon to explore</h2>
-                    <div id="icon"> 
-                <a href="#beach"><img id="token1" src="images/va_staute.jpg" alt="King neptune staute at viginia beach"></a>
-                <a href="#city"><img id="token2" src="images/las_vegas.jpg" alt="City of las vegas at night"></a>
-                <a href="#mountain"><img id="token3" src="images/stone_mtn.jpg" alt="Yellowstone mountain field with animals feeding"></a>
+    <main>
+    <section>
+<h2> View each location here </h2>
+<!--h2 will include map text before main image -->
+<div id="map">
+    <img src="images/map.jpg" alt="map with location" usemap="#travelmap">
+    <map name="travelmap">
+        <area shape="circle" coords="684,181,27" alt="Virginia beach location" href="#Virgina-Beach">
+        <area shape="circle" coords="97,402,26" alt="Hawaii location" href="#Hawaii">
+        <area shape="circle" coords="262,65,29" alt="Yellowstone location" href="#Yellowstone">
+        <area shape="circle" coords="246,192,21" alt="Grand Canyon location" href="#Grand-Canyon">
+        <area shape="circle" coords="118,189,26" alt="San Fransisco location" href="#San-Francisco">
+        <area shape="circle" coords="204,209,20" alt="Las Vegas location" href="#Las-Vegas">                    
+    </map>
+</div>
+</Section>            
+
+<section>
+    <h2 id="beach">Beaches</h2>
+    <h3 id="Virgina-Beach">Virginia Beach</h3>
+    <h3 id="Hawaii">Hawaii</h3>
+
+</section>
+<section>
+    <h2 id="city">Cities</h2>
+    <h3 id="Las-Vegas">Las Vegas</h3>
+    <h3 id="San-Francisco">San Fransisco</h3>
+</section>
+<section>
+    <h2 id="mountain">Mountains</h2>
+    <h3 id="Grand-Canyon">Grand Canyon</h3>
+    <h3 id="Yellowstone">Yellow Stone</h3>
+</section>
+<section>
+    <h2>About</h2>
+    <h3>Contact</h3>
+</section>
+</main>
+<footer>
+    <nav class="footer">
+          <div class="follow">
+              <h4>Follow Me</h4>
+              <div id="icon2"> 
+              <a href="https://www.facebook.com/Stuart.McMillan.461/"><img id="token4" src="images/facebook.jpg" alt="digtal facebook logo"></a>
+       <a href="https://www.instagram.com/it_urboistu/"><img id="token5" src="images/instagram.jpg" alt="digtal instagram logo"></a>
+       <a href="https://www.pinterest.com/Urboistu/_saved/"><img id="token6" src="images/pinterest.jpg" alt="digtal pinterest logo"></a>
+    </div>
+          <div id="footerlinks">
+              <br/> <br/> Copyright&copy; All rights reserved
             </div>
-                 </section>
-            
-                <Section>
-            <h2> View each location here </h2>
-                <!--h2 will include map text before main image -->
-                <div id="map">
-                    <img src="images/map.jpg" alt="map with location" usemap="#travelmap">
-                    <map name="travelmap">
-                        <area shape="circle" coords="1003,187,22" alt="Virginia beach location" href="#va-beach">
-                        <area shape="circle" coords="29,425,23" alt="Hawaii location" href="#hawaii">
-                        <area shape="circle" coords="577,69,29" alt="Yellowstone location" href="#yell-stn">
-                        <area shape="circle" coords="569,181,32" alt="Grand Canyon location" href="#gran-can">
-                        <area shape="circle" coords="435,180,32" alt="San Fransisco location" href="#san-fran">
-                        <area shape="circle" coords="518,214,28" alt="Las Vegas location" href="#las-veg">                    
-                    </map>
-            </div>
-        </Section>            
-                <!--I want my content to scroll down the page without tapping on links-->
-        <section>
-            <h2 id="beach">Beaches</h2>
-            <h3 id="va-beach">Virginia Beach</h3>
-        </section>
-        <section>
-            <h2 id="city">Cities</h2>
-            <h3 id="las-veg">Las Vegas</h3>
-            <h3 id="san-fran">San Fransisco</h3>
-        </section>
-        <section>
-            <h2 id="mountain">Mountains</h2>
-            <h3 id="gran-can">Grand Canyon</h3>
-            <h3 id="yell-stn">Yellow Stone</h3>
-        </section>
-        <section>
-            <h2>About</h2>
-            <h3>Contact</h3>
-        </section>
-    </main>
-    <footer>
-        <nav class="footer">
-              <div class="follow">
-                  <h4>Follow Me</h4>
-                  <a href="https://www.facebook.com/Stuart.McMillan.461/"><img src="images/facebook.jpg" alt="digtal facebook logo" width="40" height="40" style="float:center;"></a>
-      
-           <a href="https://www.instagram.com/it_urboistu/"><img src="images/instagram.jpg" alt="digtal instagram logo" width="40" height="40" style="float:center"></a>
-      
-           <a href="https://www.pinterest.com/Urboistu/_saved/"><img src="images/pinterest.jpg" alt="digtal pinterest logo" width="40" height="40" style="float:center"></a>
-      
-              <div id="footerlinks">
-                  <br/> <br/> Copyright&copy; All rights reserved
-                </div>
-              </div>
-        </nav>
-          </footer>
+          </div>
+    </nav>
+      </footer>
 </body>
 </html>

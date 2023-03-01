@@ -1,0 +1,156 @@
+/* reset styles */
+*{
+    margin: 0;
+    padding: 0%;
+    font-family: "Times", "Times New Roman", "serif-sans";
+}
+
+/* page background */
+body{
+	background-color: #F2EEE4;}
+    
+/* for nav placement  */
+.container{
+    max-width: 100%;
+    min-height:100vh;
+    padding-left:8%;
+    padding-right:8%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+/* Nav hamburger items  */
+.navbar{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+/* Logo size and position */
+.logo{
+    max-width: 50px;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.menu-icon{
+    max-width: 25px;
+    cursor: pointer;
+}
+
+nav{
+    flex: -1;
+    text-align: left;
+}
+/* Styles for nav items */
+nav ul li{
+    list-style:none;
+    display:inline-block;
+    margin-left:30px;
+}
+/* Nav font size */
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+
+}
+/* Nav hover color options */
+nav ul li a:hover{
+    color:blue;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:100px 0;
+}
+/* Column 1 font and position  */
+.col-1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+}
+
+.col-1 p{
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-size:14px;
+}
+/* Column 2 font and position */
+.col-2{
+    flex-basis: 40%;
+    position: relative;
+    margin-right: 50px;
+}
+
+.col-2 p{
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-size:14px;
+}
+/* Heading 2 styles  */
+h2{
+    color: #0e387a ;
+    text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/*icon img picture links*/
+#icon{
+    display: flex;
+    justify-content:space-evenly;
+  }
+
+  #token1{
+    border-radius: 40%;
+  }
+  #token2{
+    border-radius: 40%;
+  }
+  #token3{
+    border-radius: 40%;
+  }
+
+  #icon2{
+    display: flex;
+    justify-content: center;
+  }
+#token4{
+    height: 40px;
+    width: 40px;
+}
+
+#token5{
+    height: 40px;
+    width: 40px;
+}
+
+#token6{
+    height: 40px;
+    width: 40px;
+}
+
+/* Footer backgound color */
+  .footer{
+    background: linear-gradient(to bottom, #0e387a  0%, #000000  100%);
+    color:whitesmoke;  
+}
+/* Footer text  */
+.footer{
+    font-size:20px;
+    letter-spacing:0.5px;
+    text-align: center;
+    padding-bottom: 0%;
+}
+
+ /*map*/
+ #map{
+    display: flex;
+    justify-content:center;
+  }
+  
+#map{
+max-width: 100%;
+height: auto;
+}
