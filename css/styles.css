@@ -1,31 +1,66 @@
-/* reset styles */
+/* styles */
 *{
     margin: 0;
-    padding: 0%;
+    padding: 0;
+    border: 0;
     font-family: "Times", "Times New Roman", "serif-sans";
 }
 
-/* page background */
-body{
-	background-color: #F2EEE4;}
-    
-/* Nav hamburger items  */
-.navbar{
-    max-width: 100%;
-    display: flex;
-    align-items: center;
-}
-/* Logo size and position */
-.logo{
-    max-width: 50px;
-    cursor: pointer;
-    margin: 30px 0;
+/* Header */
+
+header{
+  position: relative;
+  z-index: 999;
+  width: 100%;
 }
 
-.menu-icon{
-    max-width: 30px;
-    cursor: pointer;
+nav{
+  /* background-color: #3d5a80; */
+  position: relative;
 }
+.toggle{
+  display: none;
+}
+
+label span{
+  background-color:#fca311;
+  font-size: 2em;
+  padding: 1%;
+  cursor: pointer;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 40vh;
+  display:none;
+}
+
+nav ul li{
+  font-size: 2rem;
+  padding-top:3%;
+  list-style-type: none;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li a:hover{
+    color: #0e387a;
+}
+
+.toggle:checked ~ ul{
+  display:block;
+}
+/* page background */
+body{
+	background-color: #F2EEE4;
+}   
 
 /* All site images  */
 img{
@@ -33,34 +68,12 @@ img{
     border-radius: 5%;
 }
 
-nav{
-    flex: -1;
-    text-align: left;
-}
-/* Styles for nav items */
-nav ul li{
-    list-style:none;
-    display:inline-block;
-    margin-left:30px;
-}
-/* Nav font size */
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-size: 16px;
-
-}
-/* Nav hover color options */
-nav ul li a:hover{
-    color:blue;
+/* Font size */
+p{
+    font-size: 1rem;
+    margin: 1em 2em;
 }
 
-.row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin:100px 0;
-}
 /* Heading 2 styles  */
 h2{
     color: #0e387a ;
@@ -148,13 +161,29 @@ height: auto;
     padding: 30px;
 }
 
-.wrapper{
-    margin: 0 auto;
-}
 /* Media Queries */
-@media screen and (max-width:480px){
+/* @media screen and (max-width:480px){
     #icon{
         display: flex;
         flex-direction: column;
-    }
+    }  
+} */
+
+@media screen and (min-width: 1024px){
+  label span{
+    display:none;
+  }
+nav ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height:10vh;
+}
+nav ul li{
+  max-width: 30%;
+  margin-top: -2%; 
+  margin-right: 5%;
+  padding-bottom: 2%;
+}
+
 }
