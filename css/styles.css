@@ -27,6 +27,12 @@ body{
     cursor: pointer;
 }
 
+/* All site images  */
+img{
+    max-width: 100%;
+    border-radius: 5%;
+}
+
 nav{
     flex: -1;
     text-align: left;
@@ -60,7 +66,7 @@ h2{
     color: #0e387a ;
     text-align: center;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
   padding: 5px;
 }
 
@@ -85,24 +91,30 @@ h2{
     width: 100%;
     border-radius: 50%;
   }
-
+/* Footer links */
   #icon2{
     display: flex;
     justify-content: center;
   }
-#token4{
+#facebk{
     height: 40px;
     width: 40px;
 }
 
-#token5{
+#insta{
     height: 40px;
     width: 40px;
 }
 
-#token6{
+#pinte{
     height: 40px;
     width: 40px;
+}
+
+/* Icon size when on different views  */
+.responsive{
+    max-width: 100%;
+    height: auto;
 }
 
 /* Footer backgound color */
@@ -144,8 +156,5 @@ height: auto;
     #icon{
         display: flex;
         flex-direction: column;
-    }
-    #token{
-        
     }
 }
