@@ -15,7 +15,7 @@ header{
 }
 
 nav{
-  /* background-color: #3d5a80; */
+  background-color: #3d5a80;
   position: relative;
 }
 .toggle{
@@ -176,7 +176,7 @@ height: auto;
 nav ul{
   display:flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: flex-start;
   height:10vh;
 }
 nav ul li{
