@@ -6,56 +6,13 @@
     font-family: "Times", "Times New Roman", "serif-sans";
 }
 
-/* Header */
-
-header{
-  position: relative;
-  z-index: 999;
-  width: 100%;
-}
-
-nav{
-  background-color: #3d5a80;
-  position: relative;
-}
-.toggle{
-  display: none;
-}
-
-label span{
-  background-color:#fca311;
-  font-size: 2em;
-  padding: 1%;
-  cursor: pointer;
-}
-
-nav ul{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 40vh;
-  display:none;
-}
-
+/* Nav Items  */
 nav ul li{
   font-size: 2rem;
   padding-top:3%;
   list-style-type: none;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
-}
-
-nav ul li a{
-  text-decoration: none;
-  color: black;
-}
-
-nav ul li a:hover{
-    color: #0e387a;
-}
-
-.toggle:checked ~ ul{
-  display:block;
 }
 /* page background */
 body{
@@ -70,7 +27,7 @@ img{
 
 /* Font size */
 p{
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin: 1em 2em;
 }
 
